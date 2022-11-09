@@ -7,11 +7,11 @@ import org.mockito.junit.MockitoJUnitRunner;
 import praktikum.Bun;
 import praktikum.Burger;
 import praktikum.Ingredient;
+import praktikum.IngredientType;
 
 
 import java.util.ArrayList;
 
-import static praktikum.IngredientType.FILLING;
 
 @RunWith(MockitoJUnitRunner.class)
 public class BurgerGetPriceTest {
@@ -33,7 +33,7 @@ public class BurgerGetPriceTest {
         burger.setBuns(bun);
         Mockito.when(bun.getPrice()).thenReturn(30F);
         ArrayList<Ingredient> ingredients = new ArrayList<>();
-        burger.addIngredient(new Ingredient(FILLING, "Дальневосточная", 50F));
+        burger.addIngredient(new Ingredient(IngredientType.FILLING, "Дальневосточная", 50F));
         Assert.assertEquals(110F, burger.getPrice(), 0);
     }
 }

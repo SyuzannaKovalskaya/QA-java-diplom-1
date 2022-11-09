@@ -6,8 +6,8 @@ import praktikum.Bun;
 
 @RunWith(Parameterized.class)
 public class BunTest {
-    private final String bunName;
-    private final float bunPrice;
+    private String bunName;
+    private float bunPrice;
 
     public BunTest(String bunName, float bunPrice) {
         this.bunName = bunName;

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="4" failures="0" name="BunTest" time="0.001" errors="0" skipped="0">
+<testsuite tests="4" failures="0" name="BunTest" time="0" errors="0" skipped="0">
   <properties>
     <property name="idea.version" value="2022.1"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
@@ -65,7 +65,7 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="BunTest" name="bunGetPriceTest[0]" time="0.001"/>
+  <testcase classname="BunTest" name="bunGetPriceTest[0]" time="0"/>
   <testcase classname="BunTest" name="bunGetNameTest[0]" time="0"/>
   <testcase classname="BunTest" name="bunGetPriceTest[1]" time="0"/>
   <testcase classname="BunTest" name="bunGetNameTest[1]" time="0"/>
